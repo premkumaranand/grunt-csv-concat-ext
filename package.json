@@ -1,24 +1,24 @@
 {
   "name": "grunt-csv-concat-ext",
   "description": "Grunt plugin to concat CSV files in a given folder (NPM package: csv-concat-ext)",
-  "version": "0.1.0",
-  "homepage": "https://github.com/premkumar/csv-concat-grunt",
+  "version": "0.1.1",
+  "homepage": "https://github.com/premkumaranand/grunt-csv-concat-ext",
   "author": {
-    "name": "premkumaranand",
+    "name": "premkumar.anand",
     "email": "aa.premkumar@gmail.com",
     "url": "fosh.io"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/premkumar/csv-concat-grunt.git"
+    "url": "git://github.com/premkumaranand/grunt-csv-concat-ext.git"
   },
   "bugs": {
-    "url": "https://github.com/premkumar/csv-concat-grunt/issues"
+    "url": "https://github.com/premkumaranand/grunt-csv-concat-ext/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/premkumar/csv-concat-grunt/blob/master/LICENSE-MIT"
+      "url": "https://github.com/premkumaranand/grunt-csv-concat-ext/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
