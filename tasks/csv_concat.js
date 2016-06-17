@@ -21,7 +21,8 @@ module.exports = function(grunt) {
         src: './test/fixtures',
         ignore: 'ignore.csv',
         dest: './test/tmp/final.csv',
-        addPrefixToKey: false
+        addPrefixToKey: false,
+        verbose: false
     });
 
     var csvConcat = new CsvConcat(options);
@@ -36,7 +37,7 @@ module.exports = function(grunt) {
         .catch(
             function(err) {
               grunt.log.writeln('Fatal error merging files: ' + err);
-              done();
+              done(false);
             }
         );
     });
