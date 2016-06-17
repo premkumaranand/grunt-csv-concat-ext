@@ -33,7 +33,7 @@ module.exports = function(grunt) {
       without_key_prefix: {
         options: {
           delimiter: '|',
-          src: __dirname + '/test/fixtures',
+          src: ['test/fixtures'],
           ignore: 'ignore.csv',
           dest: __dirname + '/test/tmp/final.csv',
           verbose: true
@@ -42,7 +42,7 @@ module.exports = function(grunt) {
       with_key_prefix: {
         options: {
           delimiter: '|',
-          src: __dirname + '/test/fixtures',
+          src: ['test/fixtures'],
           ignore: 'ignore.csv',
           dest: __dirname + '/test/tmp/final_with_prefix.csv',
           addPrefixToKey: true,
